@@ -1,3 +1,4 @@
+# ELEVATE LABS - PROJECT
 # Network Packet Sniffer with Alert System
 
 A real-time network traffic analyzer with anomaly detection capabilities. This tool captures network packets, detects security threats like port scanning and flooding attacks, and provides comprehensive analysis through both CLI and visualization tools.
@@ -8,7 +9,6 @@ A real-time network traffic analyzer with anomaly detection capabilities. This t
 - **Anomaly Detection**: Automatically detect port scanning and flooding attacks
 - **SQLite Database Storage**: Persistent storage of packet data and security alerts
 - **CLI Analysis Tools**: Comprehensive command-line interface for traffic analysis
-- **Traffic Visualization**: Generate matplotlib charts and graphs
 - **Email Alerting**: Send email notifications for critical security events
 - **Simulation Mode**: Test the system without requiring root privileges
 
