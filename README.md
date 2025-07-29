@@ -2,7 +2,7 @@
 
 A real-time network traffic analyzer with anomaly detection capabilities. This tool captures network packets, detects security threats like port scanning and flooding attacks, and provides comprehensive analysis through both CLI and visualization tools.
 
-## 🚀 Features
+##  Features
 
 - **Real-time Packet Capture**: Capture and analyze network traffic using Scapy
 - **Anomaly Detection**: Automatically detect port scanning and flooding attacks
@@ -12,7 +12,7 @@ A real-time network traffic analyzer with anomaly detection capabilities. This t
 - **Email Alerting**: Send email notifications for critical security events
 - **Simulation Mode**: Test the system without requiring root privileges
 
-## 📋 Requirements
+##  Requirements
 
 - Python 3.7+
 - Root privileges (for real packet capture)
@@ -36,7 +36,7 @@ chmod +x packet_analyzer.py
 chmod +x demo_sniffer.py
 ```
 
-## 🎯 Quick Start
+##  Quick Start
 
 ### 1. Demo Mode (No Root Required)
 Run the demo to see the system in action with simulated data:
@@ -61,7 +61,7 @@ Test without root privileges:
 python packet_sniffer.py --simulate
 ```
 
-## 📊 Analysis Tools
+##  Analysis Tools
 
 ### Traffic Analysis
 ```bash
@@ -96,7 +96,7 @@ python packet_analyzer.py --plot 6
 python packet_analyzer.py --live
 ```
 
-## 🔧 Command-Line Options
+##  Command-Line Options
 
 ### packet_sniffer.py
 ```bash
@@ -122,7 +122,7 @@ Options:
   --live                Start live monitoring dashboard
 ```
 
-## 🛡️ Security Features
+##  Security Features
 
 ### Anomaly Detection
 
@@ -143,7 +143,7 @@ All security events are:
 - Displayed in CLI output with severity levels
 - Available for email notification (configurable)
 
-## 📁 Database Schema
+##  Database Schema
 
 ### Packets Table
 ```sql
@@ -174,7 +174,7 @@ CREATE TABLE alerts (
 );
 ```
 
-## 📈 Sample Output
+##  Sample Output
 
 ### Traffic Summary
 ```
@@ -211,7 +211,7 @@ Top Attacking IPs:
    2. 203.0.113.10    - 1 alerts
 ```
 
-## 🚨 Email Alerting (Optional)
+##  Email Alerting (Optional)
 
 Configure email alerts by modifying the EmailAlerter class in `packet_analyzer.py`:
 
@@ -225,7 +225,7 @@ alerter = EmailAlerter(
 )
 ```
 
-## 📝 Usage Examples
+##  Usage Examples
 
 ### Basic Network Monitoring
 ```bash
@@ -290,23 +290,3 @@ demo_sniffer.py         # Demo and testing
 ├── generate_flood_attack()
 └── generate_normal_traffic()
 ```
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests for new functionality
-5. Submit a pull request
-
-## ⚠️ Legal Notice
-
-This tool is intended for network monitoring and security analysis on networks you own or have explicit permission to monitor. Unauthorized network monitoring may be illegal in your jurisdiction. Use responsibly and in compliance with local laws and regulations.
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
----
-
-**Happy Network Monitoring! 🔒📊**
