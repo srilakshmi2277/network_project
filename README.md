@@ -251,7 +251,7 @@ python packet_analyzer.py --alerts 24
 python packet_analyzer.py --live
 ```
 
-## 🔍 Troubleshooting
+##  Troubleshooting
 
 ### Permission Denied Errors
 - Packet capture requires root privileges
@@ -272,7 +272,7 @@ pip install scapy
 - Default location: `packets.db` in current directory
 - Use `--db` option to specify different location
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 packet_sniffer.py       # Main packet capture engine
